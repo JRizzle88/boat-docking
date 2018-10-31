@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.bd-form-default .field {
+    display: block;
+}
+
+.bd-form-inline .field {
+    display: inline-block;
+}
+
+.boat-docking-form .field {
+    margin: 5px;
+}
+
+.boat-docking-form .field input,
+.boat-docking-form .field textarea,
+.boat-docking-form .field button[type=submit] {
+    border-radius: 0;
+    padding: 8px;
+}

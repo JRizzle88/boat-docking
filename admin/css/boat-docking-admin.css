@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .boat-docking-admin {
+     background: white;
+     padding: 25px;
+     border: 1px solid #1784C7;
+ }
+ textarea {
+     resize:both;
+ }
+ .dashicons-sos::before {
+     color: #00A864 !important;
+ }
+.boat-docking-admin .button-primary {
+    background-color: #1784C7;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 20px;
+    height: auto !important;
+}
+
+.boat-docking-admin .form-table tbody tr {
+    /*background: #F5F5F5;*/
+    transition: all 0.2s ease-in-out;
+}
+.boat-docking-admin .form-table tbody tr:hover {
+    background: #FAFAFA;
+}
+.boat-docking-admin .form-table tbody tr th[scope=row] {
+    padding: 15px;
+}
+
+/* admin settings tabs */
+.boat-docking-admin .nav-tab-wrapper {
+    border-bottom: 0 !important;
+}
+.boat-docking-admin .nav-tab-wrapper .nav-tab {
+    border-radius: 4px;
+    border: 1px solid white;
+    border-bottom: 2px solid #1473AA;
+}
+.boat-docking-admin .nav-tab-wrapper .nav-tab-active {
+    background: #1784C7;
+    color: white;
+}
+
+/* admin header */
+.boat-docking-admin-header #setting-error-settings_updated {
+    color: white;
+    background: #46B450;
+    border-bottom: 3px solid #3C9B44;
+}
+.boat-docking-admin-header #setting-error-settings_updated .button-dismiss {
+    color: white;
+}
+
+
+/* admin listings */
+tbody#the-list .column-admin_notes {
+    background: rgba(255, 0, 0, 0.08);
+}
